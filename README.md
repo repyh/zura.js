@@ -26,4 +26,6 @@ function Update() {
     square.rigidBody.addForce(-3, 0); // Add negative force in the X Axis
   }
 }
+
+const Engine = new Zura(ctx, 600, 400, Update);
 ```
